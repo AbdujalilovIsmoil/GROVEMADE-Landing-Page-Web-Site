@@ -1,0 +1,636 @@
+/* /==================================== Basic to the codes Start =========================================== \  */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../FONT/Roboto-Light.ttf");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+:root {
+  --header-bg-color: #FFFFFF;
+  --nav--link-color: #000000;
+  --logo-color: #272524;
+  --section-bg-color: #E5E5E5;
+  --section-paragraph-color: #A0A0A0;
+  --section-eight-bg-color: #9AA8B1;
+  --footer-bg-color: #F9F9F9;
+  --footer-bottom-paragraph-color: #707A7F;
+}
+
+/* /==================================== Basic to the codes End =========================================== \  */
+
+/* /==================================== Header to the codes Start =========================================== \  */
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: var(--header-bg-color);
+  position: sticky;
+  top: 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  max-width: 930px;
+  width: 100%;
+}
+
+.nav__intro a {
+  display: flex;
+  align-items: center;
+}
+
+.nav__intro a img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav__intro_paragraph {
+  color: var(--logo-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.nav__box {
+  display: flex;
+}
+
+.nav__box .nav__item .nav__link {
+  padding: 0 10px;
+}
+
+.nav__link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--nav--link-color);
+}
+
+
+/* /==================================== Header to the codes End =========================================== \  */
+
+
+/* /==================================== Main to the codes Start =========================================== \  */
+.main__box {
+  background-image: url("../IMG/MAIN/main-bg-first.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 504px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__box_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 46px;
+  text-align: center;
+  color: var(--header-bg-color);
+}
+
+.main__box_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: var(--header-bg-color);
+  margin: 20px 0;
+}
+
+.main__box_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--header-bg-color);
+}
+
+/* /==================================== Main to the codes End =========================================== \  */
+
+
+/* /==================================== Section-one to the codes Start =========================================== \  */
+.section__box_one {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section__box_one_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 58px;
+  text-align: center;
+  color: var(--nav--link-color);
+}
+
+.section__box_one_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--section-paragraph-color);
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 20px 0;
+}
+
+.section__box_one_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--nav--link-color);
+}
+
+/* /==================================== Section-one to the codes End =========================================== \  */
+
+/* /==================================== Section-two to the codes start =========================================== \  */
+.section__box_two {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.section__box__two_computers {
+  text-align: center;
+}
+
+.section__box__two_computers img {
+  width: 100%;
+  height: 350px;
+}
+
+.section__box_two_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  margin: 20px 0;
+  color: var(--nav--link-color);
+}
+
+.section__box_two_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--nav--link-color);
+}
+
+/* /==================================== Section-two to the codes End =========================================== \  */
+
+/* /==================================== Section-third to the codes start =========================================== \  */
+.section__box__content {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section__box_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--nav--link-color);
+}
+
+.section__box__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--section-paragraph-color);
+  margin: 20px 0;
+  text-align: center;
+  letter-spacing: 0.8px;
+
+}
+
+.section__dots {
+  text-align: center;
+  display: flex;
+}
+
+.dot {
+  width: 7px;
+  margin: 0 5px;
+  height: 7px;
+  cursor: pointer;
+  background-color: var(--nav--link-color);
+}
+
+.section__box_computer_images {
+  display: flex;
+  justify-content: space-evenly;
+  transition: all .5s ease;
+}
+
+.section__box_computer_box img {
+  height: 400px;
+  width: 280px;
+  margin: 0 10px;
+  transition: all .5s ease;
+}
+
+.section__box_computer_box_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  text-indent: 10px;
+  color: var(--section-paragraph-color);
+  letter-spacing: 0.7px;
+}
+
+.section__box_computer_box_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-indent: 10px;
+  line-height: 21px;
+  color: var(--section-paragraph-color);
+  letter-spacing: 0.7px;
+}
+
+/* /==================================== Section-third to the codes End =========================================== \  */
+
+/* /==================================== Section-four to the codes Start =========================================== \  */
+.section__box_four {
+  background-image: url("../IMG/SECTION__FOUR/section-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 504px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 0;
+}
+
+.section__box_four_content {
+  width: 100%;
+  height: 504px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__box_four_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 70px;
+  text-align: center;
+  color: var(--header-bg-color);
+}
+
+.section__box_four_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: var(--header-bg-color);
+  margin: 20px 0;
+}
+
+.section__box_four_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  color: var(--header-bg-color);
+  text-transform: uppercase;
+}
+
+/* /==================================== Section-four to the codes End =========================================== \  */
+
+/* /==================================== Section-five to the codes Start =========================================== \  */
+.section__box_five_content {
+  text-align: center;
+}
+
+.section__box_five_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--nav--link-color);
+}
+
+.section__box_five_paragraph {
+  font-family: 'Roboto';
+  margin: 20px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--section-paragraph-color);
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+
+/* /==================================== Section-five to the codes End =========================================== \  */
+
+/* /==================================== Section-six to the codes Start =========================================== \  */
+.section__box_six_content {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.section__box_six_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+  color: var(--nav--link-color);
+  text-align: center;
+}
+
+.section__box_six_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: var(--section-paragraph-color);
+  margin: 20px 0;
+}
+
+.section__box_six_images {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 20px;
+}
+
+.section__box_six_images img {
+  height: 100%;
+  width: 100%;
+}
+
+/* /==================================== Section-six to the codes End =========================================== \  */
+
+/* /==================================== Section-seven to the codes Start =========================================== \  */
+.section__box_seven {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section__box_seven_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 36px;
+  color: var(--nav--link-color);
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+.section__box_seven_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--nav--link-color);
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+}
+
+/* /==================================== Section-seven to the codes End =========================================== \*/
+
+/* /==================================== Section-eight to the codes Start =========================================== \  */
+.section__box_eight {
+  background-color: var(--section-eight-bg-color);
+  height: 404px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section__box_eight_content {
+  height: 404px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section__box_eight_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 58px;
+  color: var(--header-bg-color);
+  margin: 30px 0;
+  text-align: center;
+}
+
+.section__box_eight_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--header-bg-color);
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+
+/* /==================================== Section-eight to the codes End =========================================== \  */
+
+/* /==================================== Footer to the codes Start =========================================== \  */
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: var(--footer-bg-color);
+  margin: 25px 0 0 0;
+}
+
+.footer__content_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content_item .footer__content_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  color: var(--nav--link-color);
+}
+
+.footer__content_list {
+  margin: 50px 0 0 0;
+}
+
+.form {
+  margin: 50px 0 0 0;
+}
+
+.form__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: var(--nav--link-color);
+}
+
+.form__paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  color: var(--section-paragraph-color);
+  margin: 25px 0 100px 0;
+}
+
+.form__input {
+  height: 1px;
+  width: 320px;
+  border: none;
+  border-bottom: 1px solid var(--nav--link-color);
+}
+
+.footer__logo {
+  height: 82px;
+  width: 82px;
+  background-color: var(--nav--link-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__logo_title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: var(--header-bg-color);
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+
+.footer__content_bottom {
+  display: flex;
+  justify-content: right;
+}
+
+.footer__content_bottom_paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.8px;
+  color: var(--footer-bottom-paragraph-color);
+  margin: 0 10px;
+}
+
+.footer__content_bottom_paragraph_bold {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.8px;
+  color: var(--nav--link-color);
+}
+
+/* /==================================== Footer to the codes End =========================================== \  */

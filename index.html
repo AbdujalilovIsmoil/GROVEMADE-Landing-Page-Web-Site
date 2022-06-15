@@ -13,9 +13,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>GROVEMADE</title>
   </head>
-  <body>
+  <body ">
+    <div class="menu">
+      <i class="fa fa-times"></i>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#shop">Shop</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#explore">Explore</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">My Cart</a>
+        </li>
+      </ul>
+    </div>
     <!-- /========================================== Header to the codes Start ================================== \ -->
     <header class="header">
       <div class="container">
@@ -23,10 +38,10 @@
           <ul class="nav__list">
             <div class="nav__box">
               <li class="nav__item">
-                <a href="#" class="nav__link">Shop</a>
+                <a href="#shop" class="nav__link">Shop</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">Explore</a>
+                <a href="#explore" class="nav__link">Explore</a>
               </li>
             </div>
             <div class="nav__intro">
@@ -71,12 +86,22 @@
     <div class="section">
       <div class="container">
         <div class="section__box_two">
-          <div class="section__box__two_computers">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="250"
+            class="section__box__two_computers"
+          >
             <img src="./IMG/SECTION__TWO/computers1.jpg" alt="computers2" />
             <h1 class="section__box_two_title">Desk Pads</h1>
             <a class="section__box_two_link" href="#">LEARN MORE</a>
           </div>
-          <div class="section__box__two_computers">
+          <div
+            class="section__box__two_computers"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="250"
+          >
             <img src="./IMG/SECTION__TWO/computers2.jpg" alt="computers2" />
             <h1 class="section__box_two_title">Laptop Stands</h1>
             <a class="section__box_two_link" href="#">LEARN MORE</a>
@@ -87,7 +112,7 @@
     <!-- /========================================== Section-two to the codes End ==============================\ -->
 
     <!-- /========================================== Section-third to the codes Start =============================\ -->
-    <section class="section">
+    <section class="section" id="shop">
       <div class="container">
         <div class="section__box_third">
           <div class="section__box__content">
@@ -100,7 +125,12 @@
             </div>
           </div>
           <div class="section__box_computer_images">
-            <div class="section__box_computer_box">
+            <div
+              class="section__box_computer_box"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="250"
+            >
               <img
                 src="./IMG/SECTION__THIRD/computers-img1.jpg"
                 alt="computers-img1"
@@ -110,7 +140,12 @@
               </h1>
               <p class="section__box_computer_box_paragraph">$120</p>
             </div>
-            <div class="section__box_computer_box">
+            <div
+              class="section__box_computer_box"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+              data-aos-delay="250"
+            >
               <img
                 src="./IMG/SECTION__THIRD/computers-img2.jpg"
                 alt="computers-img2"
@@ -120,7 +155,12 @@
               </h1>
               <p class="section__box_computer_box_paragraph">$150</p>
             </div>
-            <div class="section__box_computer_box">
+            <div
+              class="section__box_computer_box"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+              data-aos-delay="250"
+            >
               <img
                 src="./IMG/SECTION__THIRD/computers-img3.jpg"
                 alt="computers-img3"
@@ -128,7 +168,12 @@
               <h1 class="section__box_computer_box_title">Walnut iPad Stand</h1>
               <p class="section__box_computer_box_paragraph">$80</p>
             </div>
-            <div class="section__box_computer_box">
+            <div
+              class="section__box_computer_box"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+              data-aos-delay="250"
+            >
               <img
                 src="./IMG/SECTION__THIRD/computers-img4.jpg"
                 alt="computers-img4"
@@ -176,6 +221,9 @@
               investing in.
             </p>
             <img
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="250"
               class="section__five_bg_img"
               src="./IMG/SECTION__FIVE/section-five-bg-img.jpg"
               alt="section-five-bg-img"
@@ -187,7 +235,7 @@
     <!-- /========================================== Section-five to the codes End =============================== \ -->
 
     <!-- /========================================== Section-six to the codes Start =============================== \ -->
-    <section class="section">
+    <section class="section" id="explore">
       <div class="section__box_six">
         <div class="container">
           <div class="section__box_six_content">
@@ -200,98 +248,170 @@
           </div>
           <div class="section__box_six_images">
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person1.jpg"
               alt="section-five-person1"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person2.jpg"
               alt="section-five-person2"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person3.jpg"
               alt="section-five-person3"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person4.jpg"
               alt="section-five-person4"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person5.jpg"
               alt="section-five-person5"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person6.jpg"
               alt="section-five-person6"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person7.jpg"
               alt="section-five-person7"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person8.jpg"
               alt="section-five-person8"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person9.jpg"
               alt="section-five-person9"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person10.jpg"
               alt="section-five-person10"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person11.jpg"
               alt="section-five-person11"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person12.jpg"
               alt="section-five-person12"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person13.jpg"
               alt="section-five-person13"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person14.jpg"
               alt="section-five-person14"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person15.jpg"
               alt="section-five-person15"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person16.jpg"
               alt="section-five-person16"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person17.jpg"
               alt="section-five-person17"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person18.jpg"
               alt="section-five-person18"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person19.jpg"
               alt="section-five-person19"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person20.jpg"
               alt="section-five-person20"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person21.jpg"
               alt="section-five-person21"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person22.jpg"
               alt="section-five-person22"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person23.jpg"
               alt="section-five-person23"
             />
             <img
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./IMG/SECTION__FIVE/section-five-person24.jpg"
               alt="section-five-person24"
             />
@@ -389,6 +509,7 @@
     </footer>
     <!-- /========================================== Footer to the codes End =============================== \ -->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./JS/index.js"></script>
   </body>
 </html>

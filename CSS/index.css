@@ -215,6 +215,7 @@
 .section__box__two_computers img {
   width: 100%;
   height: 350px;
+  object-fit: cover;
 }
 
 .section__box_two_title {
@@ -300,6 +301,7 @@
   width: 280px;
   margin: 0 10px;
   transition: all .5s ease;
+  object-fit: cover;
 }
 
 .section__box_computer_box_title {
@@ -456,6 +458,7 @@
 .section__box_six_images img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 /* /==================================== Section-six to the codes End =========================================== \  */

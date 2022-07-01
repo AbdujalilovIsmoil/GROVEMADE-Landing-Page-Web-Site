@@ -16,3 +16,4 @@ for (let i = 0; i < link.length; i++) {
   });
 }
 AOS.init();
+

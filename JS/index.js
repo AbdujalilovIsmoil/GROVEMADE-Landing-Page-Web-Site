@@ -1,18 +1,13 @@
-let bars = document.querySelector(".fa-bars"),
-  times = document.querySelector(".fa-times"),
-  menu = document.querySelector(".menu"),
-  link = document.querySelectorAll(".menu__link");
-
-bars.addEventListener("click", () => {
-  menu.style.transform = "translateX(0)";
+$(".fa-bars").addEventListener("click", () => {
+  $(".menu").classList.add("active");
 });
-times.addEventListener("click", () => {
-  menu.style.transform = "translateX(-100%)";
+$(".fa-times").addEventListener("click", () => {
+  $(".menu").classList.remove("active");
 });
 
-for (let i = 0; i < link.length; i++) {
-  link[i].addEventListener("click", () => {
-    menu.style.transform = "translateX(-100%)";
+for (let i = 0; i < $$(".menu__link").length; i++) {
+  $$(".menu__link")[i].addEventListener("click", () => {
+    $(".menu").classList.remove("active");
   });
 }
 AOS.init();
